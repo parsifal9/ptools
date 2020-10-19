@@ -21,11 +21,11 @@ sdda.dda(obj, X, y, start = rep(FALSE, p), never = rep(FALSE, p),
 	\item{X}{Training data matrix - rows are observations columns of variables.}
 	\item{y}{Vector of true class labels}
 	\item{priors}{ ~ TODO ~ }
-	\item{start} {
+	\item{start}{
 		Logical vector indicating which variables (if any) should start in the
 		rule.
 	}
-	\item{never} {
+	\item{never}{
 		Logical vector indicating which variables (if any) should never be in
 		the rule.
 	}
