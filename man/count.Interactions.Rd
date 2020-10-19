@@ -9,8 +9,8 @@ count.Interactions(object)
 \arguments{
 \item{object}{a fitted RF model of class ranger
 
- @return  countMatrix  the counts 
- @return  InteractionMatrix}
+@return  countMatrix  the counts
+@return  InteractionMatrix}
 }
 \description{
 count the pairs of consecutive variables in a ranger RF

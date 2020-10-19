@@ -2,10 +2,10 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 counts <- function(tree_matrix, n) {
-    .Call(`_ptools_counts`, tree_matrix, n)
+    .Call('_ptools_counts', PACKAGE = 'ptools', tree_matrix, n)
 }
 
 rcpp_hello_world <- function() {
-    .Call(`_ptools_rcpp_hello_world`)
+    .Call('_ptools_rcpp_hello_world', PACKAGE = 'ptools')
 }
 
