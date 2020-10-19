@@ -147,15 +147,15 @@ HGglm(x, f, event = NULL, weights = rep(1, nrow(x)),
 }
 
 \references{
-  McCullagh, P. and Nelder, J. A. (1989) \textit{Generalized Linear
+  McCullagh, P. and Nelder, J. A. (1989) \emph{Generalized Linear
     Models}, 2nd ed., Chapman and Hall: London.
 
   Fan, J. and Li, R. (2001) Variable selection via penalized likelihood.
-  \textit{Journal of American Statistical Association}, \textbf{96},
+  \emph{Journal of American Statistical Association}, \textbf{96},
   1348--1360.
 
   Figueiredo, M. (2003) Adaptive sparseness for supervised
-  learning. \textit{IEEE Transactions on Pattern Analysis and Machine
+  learning. \emph{IEEE Transactions on Pattern Analysis and Machine
     Intelligence}, \textbf{25} (9), 1150--1159.
     
   Kiiveri, H.T., A Bayesian approach to variable selection when the number of
@@ -174,7 +174,7 @@ HGglm(x, f, event = NULL, weights = rep(1, nrow(x)),
 
   Cawley, G., and Talbot, N. (2006) Gene selection in cancer
   classification using sparse logistic regression with Bayesian
-  regularization. \textit{Bioinformatics}, \textbf{22} (19), 2348--2355.
+  regularization. \emph{Bioinformatics}, \textbf{22} (19), 2348--2355.
 }
 
 \author{ Harri Kiiveri }
