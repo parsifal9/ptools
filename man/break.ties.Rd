@@ -10,7 +10,7 @@ break.ties(x, sd.divisor = 10)
 
 \arguments{
   \item{x}{vector of survival times}
-  \item{sd.divisor} {standard deviation divisor}
+  \item{sd.divisor}{standard deviation divisor}
 }
 
 \details{
